@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btn_get1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get 同步"/>
+    <Button
+        android:id="@+id/btn_get2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get 异步"/>
+    <Button
+        android:id="@+id/btn_post1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post 同步"/>
+    <Button
+        android:id="@+id/btn_post2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post 异步"/>
+    <Button
+        android:id="@+id/btn_postString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post String"/>
+
+</LinearLayout>
