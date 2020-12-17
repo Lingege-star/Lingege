@@ -80,6 +80,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
 
+            case R.id.btn_factory4:
+                ThreadPoolFactory.getThreadPool(ThreadPoolFactory.CUSTOM_THREADPOOL).
+                        executeTask(new Runnable() {
+                            @Override
+                            public void run() {
+
+//TODO 下载文件
+
+                            }
+                        });
+
+                break;
+
 
         }
     }
