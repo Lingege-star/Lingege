@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         public void run() {
             //TODO 执行耗时操作
+             Log.e("TAG","哈哈哈哈哈哈");
 
         }
     };
